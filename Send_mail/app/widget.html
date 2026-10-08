@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contact Widget</title>
+<script src="https://js.zohostatic.com/creator/widgets/version/1.0/widgetsdk-min.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="cw-wrap">
+  <div class="cw-panel">
+    <h1><span class="accent">Contact</span> Our Medical Billing Service Experts in Australia</h1>
+    <div class="cw-contact-info">
+      <div class="cw-contact-row">
+        <span class="cw-contact-label">Email</span>
+        <a id="cw-org-email" href="mailto:admin@medielves.com.au">admin@medielves.com.au</a>
+      </div>
+      <div class="cw-contact-row">
+        <span class="cw-contact-label">Mobile</span>
+        <a id="cw-org-mobile" href="tel:9344190042">98765 43124</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="cw-form">
+    <div class="cw-form-fields">
+      <h2>How can we help?</h2>
+      <div class="cw-radio-group" id="cw-help-group">
+        <label class="cw-radio"><input type="radio" name="help" value="Physicians"> Physicians</label>
+        <label class="cw-radio"><input type="radio" name="help" value="Surgeons"> Surgeons</label>
+        <label class="cw-radio"><input type="radio" name="help" value="Hospitals"> Hospitals</label>
+        <label class="cw-radio"><input type="radio" name="help" value="Other Services"> Other Services</label>
+      </div>
+
+      <div class="cw-field">
+        <input type="email" id="cw-email" placeholder="Enter your email address">
+      </div>
+      <div class="cw-field">
+        <input type="text" id="cw-subject" placeholder="Subject">
+      </div>
+      <div class="cw-field">
+        <textarea id="cw-message" placeholder="Message"></textarea>
+      </div>
+      <div class="cw-field cw-file-field">
+        <label for="cw-attachment" class="cw-file-label">Attach a file (optional)</label>
+        <input type="file" id="cw-attachment">
+      </div>
+    </div>
+
+    <div class="cw-form-footer">
+      <button class="cw-submit" id="cw-submit">Submit inquiry</button>
+      <div class="cw-msg" id="cw-msg"></div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
